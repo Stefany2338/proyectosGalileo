@@ -1,0 +1,15 @@
+C:\Users\Stefany\Desktop\palindrome\palindrome\bin\Debug\net7.0\palindrome.exe
+C:\Users\Stefany\Desktop\palindrome\palindrome\bin\Debug\net7.0\palindrome.deps.json
+C:\Users\Stefany\Desktop\palindrome\palindrome\bin\Debug\net7.0\palindrome.runtimeconfig.json
+C:\Users\Stefany\Desktop\palindrome\palindrome\bin\Debug\net7.0\palindrome.dll
+C:\Users\Stefany\Desktop\palindrome\palindrome\bin\Debug\net7.0\palindrome.pdb
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\palindrome.csproj.AssemblyReference.cache
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\palindrome.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\palindrome.AssemblyInfoInputs.cache
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\palindrome.AssemblyInfo.cs
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\palindrome.csproj.CoreCompileInputs.cache
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\palindrome.dll
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\refint\palindrome.dll
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\palindrome.pdb
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\palindrome.genruntimeconfig.cache
+C:\Users\Stefany\Desktop\palindrome\palindrome\obj\Debug\net7.0\ref\palindrome.dll

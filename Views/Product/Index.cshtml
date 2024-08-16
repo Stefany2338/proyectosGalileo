@@ -1,0 +1,67 @@
+﻿@model IEnumerable<Test.Models.ProductModel>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<h2>Add a new producto :)</h2>
+
+
+<form asp-action="Product" method="post">
+
+    <div>
+        <label for="Id"> id:  </label>
+        <input type="number" id="id" name="id" />
+    </div>
+    <label for="Name"> name: </label>
+    <input type="text" id="name" name="name" />
+    <div>
+    </div>
+    <label for="Description"> Description: </label>
+    <input type="text" id="description" name="description" />
+    <div>
+        <label for="Existencia"> Existencia: </label>
+        <input type="number" id="existencia" name="existencia" />
+    </div>
+
+    <div>
+        <label for="value"> Value: </label>
+        <input type="number" id="value" name="value" />
+    </div>
+
+    <button type="submit">Add product </button>
+
+
+</form>
+
+
+<h1>Our products:)</h1>
+
+
+<table class="tableProducts">
+
+    <thead>
+        <tr>
+            <th>ID </th>
+            <th>NAME </th>
+            <th>DESCRIPTION </th>
+            <th>EXISTENCIA </th>
+            <th>VALUE </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <th>@product.id</th>
+                <th>@product.name</th>
+                <th>@product.description</th>
+                <th>@product.existencia</th>
+                <th>@product.precio</th>
+            </tr>
+            
+        }
+    </tbody>
+
+</table>

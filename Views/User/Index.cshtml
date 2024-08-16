@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Test.Models.UserModel>
+
+
+@{
+    ViewData["Title"] = "User List";
+
+}
+
+
+<h2> Add New User</h2>
+<form asp-action="User" method="post">
+    <div>
+        <label for="Id"> Id : </label>
+        <input type="number" id="id" name="id" required />
+    </div>
+    <div>
+        <label for="Username"> User Name : </label>
+        <input type="text" id="username" name="username" required />
+    </div>
+    <div>
+        <label for="Password"> Password : </label>
+        <input type="password" id="password" name="password" required />
+    </div>
+    <button type="submit"> Add User </button>
+</form>
+
+
+<h1> User List </h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> ID </th>
+            <th> USERNAME </th>
+            <th> PASSWORD </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <th> @user.id </th>
+                <th> @user.userName </th>
+                <th> @user.password </th>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
